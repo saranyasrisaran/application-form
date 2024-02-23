@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+}
+body
+{
+background: url(img.jpg);
+font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    padding: 10px 20px 30px;
+    width: 500px;
+    margin: 250px auto;
+    background-color: rgb(211, 211, 121);
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    color:palevioletred;
+}
+.input1 input{
+  
+    width: 100%;
+   
+    font-size: 1em;
+    border-radius:8px ;
+    padding: 5px 5px;
+    box-shadow:2px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+}
+input:focus{
+   background-color: pink;
+}
+.textlable{
+    display: block;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color:plum;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(167, 39, 167);
+    box-shadow:2px ;
+}
+.radio input{
+    width: 5%;
+    accent-color:palevioletred;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform:scale(1.5);
+}
+    
+
+
+    
